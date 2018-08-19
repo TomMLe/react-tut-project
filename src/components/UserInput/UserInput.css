@@ -1,0 +1,8 @@
+.Input {
+  margin:16px auto;
+  background-color: cyan;
+  font-size: 20px;
+  border: 5x solid blue;
+  text-align: center;
+  text-shadow: 1px 1px #FF0000;
+}
