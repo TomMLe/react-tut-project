@@ -32,7 +32,7 @@ class Person extends Component {
     return (
       <Aux>
         <AuthContext.Consumer>
-          {auth => auth ? <p> authenticated </p> : null}
+          {auth => auth ? <p> Authenticated!! </p> : null}
         </AuthContext.Consumer>
         <p onClick={this.props.click}> Im {this.props.name} and I am {this.props.age} years old</p>
         <p>{this.props.children}</p>
